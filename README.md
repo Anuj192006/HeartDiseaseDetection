@@ -1,48 +1,29 @@
-❤️ Heart Disease Prediction — Mini ML Project
+# Heart Disease Prediction App (Mini ML Project)
 
-This is a mini machine learning project built to explore how ML models can be applied to real-world healthcare datasets.
-The goal was to understand the end-to-end ML workflow — from data preprocessing and model training to simple deployment — rather than to build a production-grade system.
+This is a mini machine learning project built to explore how ML models can be applied to real-world healthcare datasets.  
+The goal is to understand the end-to-end ML workflow — from data preprocessing and model training to simple deployment.
 
-What this project demonstrates
+## What This Project Demonstrates
 
-Practical application of supervised machine learning (classification)
+- Supervised machine learning (classification)
+- Train-test split for model evaluation
+- Feature-based medical prediction
+- Basic deployment using Streamlit
+- Genuine interest in machine learning fundamentals
 
-Use of train-test split for model evaluation
+## Tech Stack
 
-Hands-on experience with feature-based prediction
+- Python  
+- Pandas, NumPy  
+- Scikit-learn (Logistic Regression)  
+- Streamlit  
+- Jupyter Notebook  
 
-Basic model deployment using Streamlit for interactive usage
+## Project Structure
 
-Curiosity-driven learning and experimentation with ML concepts
-
-Tech Stack
-
-Python
-
-Pandas, NumPy
-
-Scikit-learn (Logistic Regression)
-
-Streamlit (for UI)
-
-Jupyter Notebook (experimentation & analysis)
-
-Project Structure
-
-Model.ipynb — Data analysis, preprocessing, and model training
-
-train_model.py — Script to train and save the ML model
-
-heart_disease_model.sav — Trained Logistic Regression model
-
-app.py — Streamlit app for user interaction
-
-heart.csv — Dataset used for training
-
-requirements.txt — Project dependencies
-
-
-Why this project?
-
-This project was built as a learning-focused mini project to show interest in machine learning fundamentals and real-world datasets.
-It reflects my enthusiasm for exploring ML concepts alongside my primary focus on frontend and full-stack development.
+- Model.ipynb – Data analysis and model training  
+- train_model.py – Model training and saving script  
+- heart_disease_model.sav – Trained ML model  
+- app.py – Streamlit application  
+- heart.csv – Dataset  
+- requirements.txt – Dependencies  
