@@ -1,42 +1,48 @@
-# Heart Disease Prediction App
+❤️ Heart Disease Prediction — Mini ML Project
 
-This project predicts the likelihood of heart disease using a Machine Learning model deployed with Streamlit.
+This is a mini machine learning project built to explore how ML models can be applied to real-world healthcare datasets.
+The goal was to understand the end-to-end ML workflow — from data preprocessing and model training to simple deployment — rather than to build a production-grade system.
 
-## Files
+What this project demonstrates
 
-- `Model.ipynb`: Original Jupyter Notebook with data analysis and model training.
-- `train_model.py`: Python script to train the model and save it as `heart_disease_model.sav`.
-- `heart_disease_model.sav`: The trained logistic regression model.
-- `app.py`: The Streamlit web application.
-- `requirements.txt`: List of dependencies required to run the app.
-- `heart.csv`: The dataset used for training.
+Practical application of supervised machine learning (classification)
 
-## How to Run Locally
+Use of train-test split for model evaluation
 
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+Hands-on experience with feature-based prediction
 
-2. **Run the app:**
-   ```bash
-   streamlit run app.py
-   ```
+Basic model deployment using Streamlit for interactive usage
 
-## How to Deploy (Get a hosted link)
+Curiosity-driven learning and experimentation with ML concepts
 
-The easiest way to host this for free is using **Streamlit Community Cloud**.
+Tech Stack
 
-1. **Upload this code to GitHub:**
-   - Create a new repository on GitHub.
-   - Upload all the files in this folder (`app.py`, `heart_disease_model.sav`, `requirements.txt`, etc.) to the repository.
+Python
 
-2. **Deploy on Streamlit Cloud:**
-   - Go to [share.streamlit.io](https://share.streamlit.io/).
-   - Sign up/Login with your GitHub account.
-   - Click "New app".
-   - Select your repository, branch (usually `main`), and the main file path (`app.py`).
-   - Click "Deploy".
+Pandas, NumPy
 
-3. **Get your link:**
-   - Once deployed, you will get a URL (e.g., `https://your-app-name.streamlit.app`) which you can put on your resume.
+Scikit-learn (Logistic Regression)
+
+Streamlit (for UI)
+
+Jupyter Notebook (experimentation & analysis)
+
+Project Structure
+
+Model.ipynb — Data analysis, preprocessing, and model training
+
+train_model.py — Script to train and save the ML model
+
+heart_disease_model.sav — Trained Logistic Regression model
+
+app.py — Streamlit app for user interaction
+
+heart.csv — Dataset used for training
+
+requirements.txt — Project dependencies
+
+
+Why this project?
+
+This project was built as a learning-focused mini project to show interest in machine learning fundamentals and real-world datasets.
+It reflects my enthusiasm for exploring ML concepts alongside my primary focus on frontend and full-stack development.
